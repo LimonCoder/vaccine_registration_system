@@ -14,7 +14,7 @@ Follow these steps to set up and run the project:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/limonbat/vaccine_registration_system.git
+   git clone https://github.com/LimonCoder/vaccine_registration_system.git
 
 2. **Navigate to the Project Root Directory**
    ```bash
