@@ -20,18 +20,14 @@ Follow these steps to set up and run the project:
    ```bash
    docker-compose up --build -d
 
-4. **Get the application Container ID To find the container ID, run:**
-   ```bash
-   docker ps
-
-5. **Access the application container.**
+4. **Access the application container.**
    ```bash
    docker exec -it application bash
 
-6. **Install Project Dependencies Inside the application container, run:**
+5. **Install Project Dependencies Inside the application container, run:**
    ```bash
    composer install
 
-7. **Access the Application Open your web browser and navigate to:**
+6. **Access the Application Open your web browser and navigate to:**
    ```bash
    http://localhost:8000
