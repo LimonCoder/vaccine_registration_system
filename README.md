@@ -30,7 +30,7 @@ Follow these steps to set up and run the project:
 
 5. **Access the Running Container Replace <container_id> with the actual container ID or name.**
    ```bash
-   docker exec -it <container_id> bash
+   docker exec -it application bash
 
 6. **Install Project Dependencies Inside the container, run:**
    ```bash
