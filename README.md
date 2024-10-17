@@ -1,9 +1,5 @@
 # Vaccine Registration System
 
-## Overview
-
-A brief description of your project, its purpose, and features.
-
 ## Prerequisites
 
 - Docker and Docker Compose installed on your machine.
@@ -28,11 +24,11 @@ Follow these steps to set up and run the project:
    ```bash
    docker ps
 
-5. **Access the Running Container Replace <container_id> with the actual container ID or name.**
+5. **Access the application container.**
    ```bash
    docker exec -it application bash
 
-6. **Install Project Dependencies Inside the container, run:**
+6. **Install Project Dependencies Inside the application container, run:**
    ```bash
    composer install
 
