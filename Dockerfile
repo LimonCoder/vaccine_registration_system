@@ -41,13 +41,6 @@ COPY --from=composer:2.2.21 /usr/bin/composer /usr/bin/composer
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy the composer.json and composer.lock files first
-COPY composer.json ./
-
-# Install Composer dependencies
-RUN composer install --no-autoloader --no-scripts && \
-    composer dump-autoload --optimize
-
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
 
